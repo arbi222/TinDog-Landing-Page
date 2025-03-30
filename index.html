@@ -228,7 +228,11 @@
     <i class="fa-brands fa-instagram"></i>
     <i class="fa-solid fa-envelope"></i>
 
-    <p>© Copyright 2022 TinDog</p>
+    <p>© Copyright <span id="year"></span> TinDog</p>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 
   </footer>
 
